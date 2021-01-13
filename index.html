@@ -34,7 +34,7 @@
     <script src="jquery-3.5.1.js"></script>
     <script>
         $(function () {
-                $('input[type="radio"][id="CSharp"]').on('click', function () {
+            $('input[type="radio"][id="CSharp"]').on('click', function () {
                 var chkValue = $('input[type=radio][id="CSharp"]:checked').val();
                 if (chkValue) {
                     $('.CSharp_article').css('display', 'block');
@@ -45,7 +45,7 @@
             });
         });
         $(function () {
-                $('input[type="radio"][id="Graphics"]').on('click', function () {
+            $('input[type="radio"][id="Graphics"]').on('click', function () {
                 var chkValue = $('input[type=radio][id="Graphics"]:checked').val();
                 if (chkValue) {
                     $('.CSharp_article').css('display', 'none');
@@ -56,7 +56,7 @@
             });
         });
         $(function () {
-                $('input[type="radio"][id="Android"]').on('click', function () {
+            $('input[type="radio"][id="Android"]').on('click', function () {
                 var chkValue = $('input[type=radio][id="Android"]:checked').val();
                 if (chkValue) {
                     $('.CSharp_article').css('display', 'none');
@@ -67,7 +67,7 @@
             });
         });
         $(function () {
-                $('input[type="radio"][id="Network"]').on('click', function () {
+            $('input[type="radio"][id="Network"]').on('click', function () {
                 var chkValue = $('input[type=radio][id="Network"]:checked').val();
                 if (chkValue) {
                     $('.CSharp_article').css('display', 'none');
@@ -134,13 +134,13 @@
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src="CSharp/첫 번째/Security Main UI.png" class="card-img-top" alt="..."
+                                    <img src="CSharp/첫 번째/thumbnail.png" class="card-img-top" alt="..."
                                         style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">새로운 전치기법 암호</h5>
                                             <p class="card-text">기존의 전치기법을 개선한 알고리즘을 테스트 할 수 있습니다</p>
                                             <p>
-                                                <a href="CSharp/첫 번째/CSharpSecurity.exe"
+                                                <a href="CSharp/첫 번째/Security 실행.zip"
                                                     class="btn btn-primary my-2">.exe</a>
                                                 <a href="CSharp/첫 번째/새로운 전치기법 암호 테스트 계획서.docx"
                                                     class="btn btn-secondary my-2">Test Plan</a>
@@ -152,7 +152,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -168,7 +169,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -184,7 +186,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -226,7 +229,42 @@
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Graphics/01_첫 번째/thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
+                                    <div class="card-body" style="height: 13rem; overflow: auto;">
+                                        <h3 class="card-title">OpenGL 메시 렌더링</h5>
+                                            <p class="card-text">방향키 조작가능, F1키 확대, F2키 축소, F3키 셰이딩, F4키 프레임골격<br><br>자세한
+                                                내용은 Report 보고서 확인</p>
+                                            <p>
+                                                <a href="Graphics/01_첫 번째/triceratops 실행/triceratops.exe"
+                                                    class="btn btn-primary my-2">.exe</a>
+                                                <a href="Graphics/01_첫 번째/보고서.docx"
+                                                    class="btn btn-secondary my-2">Report</a>
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="Graphics/02_두 번째/thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
+                                    <div class="card-body" style="height: 13rem; overflow: auto;">
+                                        <h3 class="card-title">프랙탈 Mandelbort집합</h5>
+                                            <p class="card-text">(Rubber-banding 적용) 마우스 드래그로 원하는 지점으로 확대합니다<br><br>자세한
+                                                내용은 Report 보고서 확인</p>
+                                            <p>
+                                                <a href="Graphics/02_두 번째/mandelbrot 실행.zip"
+                                                    class="btn btn-primary my-2">.exe</a>
+                                                <a href="Graphics/02_두 번째/보고서.hwp"
+                                                    class="btn btn-secondary my-2">Report</a>
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -242,39 +280,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
-                                    <div class="card-body" style="height: 13rem; overflow: auto;">
-                                        <h3 class="card-title">Lorem, ipsum dolor.</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                elit.
-                                                Repellat cum impedit quas ducimus.</p>
-                                            <p>
-                                                <a href="#" class="btn btn-primary my-2">.exe</a>
-                                                <a href="#" class="btn btn-secondary my-2">Test Plan</a>
-                                                <a href="#" class="btn btn-secondary my-2">Test Case</a>
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
-                                    <div class="card-body" style="height: 13rem; overflow: auto;">
-                                        <h3 class="card-title">Lorem, ipsum dolor.</h5>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
-                                                elit.
-                                                Repellat cum impedit quas ducimus.</p>
-                                            <p>
-                                                <a href="#" class="btn btn-primary my-2">.exe</a>
-                                                <a href="#" class="btn btn-secondary my-2">Test Plan</a>
-                                                <a href="#" class="btn btn-secondary my-2">Test Case</a>
-                                            </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -316,7 +323,8 @@
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -332,7 +340,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -348,7 +357,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -364,7 +374,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -406,7 +417,8 @@
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -422,7 +434,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -438,7 +451,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -454,7 +468,8 @@
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="Dummy/라이언.png" class="card-img-top" alt="..." style="height: 18rem;">
+                                    <img src="Dummy/dummy_thumbnail.png" class="card-img-top" alt="..."
+                                        style="height: 18rem;">
                                     <div class="card-body" style="height: 13rem; overflow: auto;">
                                         <h3 class="card-title">Lorem, ipsum dolor.</h5>
                                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -477,7 +492,8 @@
     </div>
     <footer id="main_footer">
         <h3>Contact me</h3>
-        <address>s2angji@naver.com</address>
+        <address><a href="#">s2angji@naver.com</a></address>
+        <a href="#" class="btn btn-primary my-2" style="position: absolute; right: 10px; bottom: 10px;">Go to Top</a>
     </footer>
 </body>
 
